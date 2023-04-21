@@ -1,6 +1,6 @@
-name: Scan session blockA
+name: Scan session blockB
 description: log session
-title: "[SCAN] sub-xx_ses-yyy blockA"
+title: "[SCAN] sub-xx_ses-yyy blockB"
 labels: [scan]
 assignees: 
   - bpinsard
