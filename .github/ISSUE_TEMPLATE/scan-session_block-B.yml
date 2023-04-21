@@ -1,0 +1,314 @@
+name: Scan session
+description: log session
+title: "[SCAN] sub-xx_ses-yyy blockA"
+labels: [scan]
+assignees: 
+  - bpinsard
+body:
+- type: markdown
+  attributes:
+    value: "# general infos"
+
+- type: checkboxes
+  id: setup
+  attributes:
+    label: Setup
+    description: check all the equipment that was set up
+    options:
+      - label: biopac
+      - label: sensimetrics
+      - label: eyetracker
+      - label: game controller
+      - label: microphone
+
+- type: textarea
+  attributes:
+    label: general notes
+
+- type: markdown
+  attributes:
+    value: "## task-SlumlordStory"
+- type: checkboxes
+  attributes:
+    label: task-SlumlordStory_run-01 completion  
+    options:
+      - label: series was completed.
+- type: dropdown
+  attributes:
+    label: task-SlumlordStory_run-01 issues
+    multiple: true
+    options:
+      - sleep
+      - excessive motion
+      - eyetracking issues (crash, pupil loss)
+      - physio signal quality issue
+      - controller issues
+- type: textarea
+  attributes:
+    label: task-SlumlordStory_run-01 notes
+
+- type: markdown
+  attributes:
+    value: "## task-SlumlordRecall"
+- type: checkboxes
+  attributes:
+    label: task-SlumlordRecall_run-01 completion  
+    options:
+      - label: series was completed.
+- type: dropdown
+  attributes:
+    label: task-SlumlordRecall_run-01 issues
+    multiple: true
+    options:
+      - sleep
+      - excessive motion
+      - eyetracking issues (crash, pupil loss)
+      - physio signal quality issue
+      - controller issues
+- type: textarea
+  attributes:
+    label: task-SlumlordRecall_run-01 notes
+
+- type: markdown
+  attributes:
+    value: "## task-SlumlordRecency"
+- type: checkboxes
+  attributes:
+    label: task-SlumlordRecency_run-01 completion  
+    options:
+      - label: series was completed.
+- type: dropdown
+  attributes:
+    label: task-SlumlordRecency_run-01 issues
+    multiple: true
+    options:
+      - sleep
+      - excessive motion
+      - eyetracking issues (crash, pupil loss)
+      - physio signal quality issue
+      - controller issues
+- type: textarea
+  attributes:
+    label: task-SlumlordRecency_run-01 notes
+
+- type: markdown
+  attributes:
+    value: "## task-PiemanStory"
+- type: checkboxes
+  attributes:
+    label: task-PiemanStory_run-01 completion  
+    options:
+      - label: series was completed.
+- type: dropdown
+  attributes:
+    label: task-PiemanStory_run-01 issues
+    multiple: true
+    options:
+      - sleep
+      - excessive motion
+      - eyetracking issues (crash, pupil loss)
+      - physio signal quality issue
+      - controller issues
+- type: textarea
+  attributes:
+    label: task-PiemanStory_run-01 notes
+
+- type: markdown
+  attributes:
+    value: "## task-PiemanRecall"
+- type: checkboxes
+  attributes:
+    label: task-PiemanRecall_run-01 completion  
+    options:
+      - label: series was completed.
+- type: dropdown
+  attributes:
+    label: task-PiemanRecall_run-01 issues
+    multiple: true
+    options:
+      - sleep
+      - excessive motion
+      - eyetracking issues (crash, pupil loss)
+      - physio signal quality issue
+      - controller issues
+- type: textarea
+  attributes:
+    label: task-PiemanRecall_run-01 notes
+
+- type: markdown
+  attributes:
+    value: "## task-PiemanRecency"
+- type: checkboxes
+  attributes:
+    label: task-PiemanRecency_run-01 completion  
+    options:
+      - label: series was completed.
+- type: dropdown
+  attributes:
+    label: task-PiemanRecency_run-01 issues
+    multiple: true
+    options:
+      - sleep
+      - excessive motion
+      - eyetracking issues (crash, pupil loss)
+      - physio signal quality issue
+      - controller issues
+- type: textarea
+  attributes:
+    label: task-PiemanRecency_run-01 notes
+
+- type: markdown
+  attributes:
+    value: "## task-PrettymouthStory"
+- type: checkboxes
+  attributes:
+    label: task-PrettymouthStory_run-01 completion  
+    options:
+      - label: series was completed.
+- type: dropdown
+  attributes:
+    label: task-PrettymouthStory_run-01 issues
+    multiple: true
+    options:
+      - sleep
+      - excessive motion
+      - eyetracking issues (crash, pupil loss)
+      - physio signal quality issue
+      - controller issues
+- type: textarea
+  attributes:
+    label: task-PrettymouthStory_run-01 notes
+
+- type: markdown
+  attributes:
+    value: "## task-PrettymouthRecall"
+- type: checkboxes
+  attributes:
+    label: task-PrettymouthRecall_run-01 completion  
+    options:
+      - label: series was completed.
+- type: dropdown
+  attributes:
+    label: task-PrettymouthRecall_run-01 issues
+    multiple: true
+    options:
+      - sleep
+      - excessive motion
+      - eyetracking issues (crash, pupil loss)
+      - physio signal quality issue
+      - controller issues
+- type: textarea
+  attributes:
+    label: task-PrettymouthRecall_run-01 notes
+
+- type: markdown
+  attributes:
+    value: "## task-PrettymouthRecency"
+- type: checkboxes
+  attributes:
+    label: task-PrettymouthRecency_run-01 completion  
+    options:
+      - label: series was completed.
+- type: dropdown
+  attributes:
+    label: task-PrettymouthRecency_run-01 issues
+    multiple: true
+    options:
+      - sleep
+      - excessive motion
+      - eyetracking issues (crash, pupil loss)
+      - physio signal quality issue
+      - controller issues
+- type: textarea
+  attributes:
+    label: task-PrettymouthRecency_run-01 notes
+
+- type: markdown
+  attributes:
+    value: "## task-TunnelPart1Story"
+- type: checkboxes
+  attributes:
+    label: task-TunnelPart1Story_run-01 completion  
+    options:
+      - label: series was completed.
+- type: dropdown
+  attributes:
+    label: task-TunnelPart1Story_run-01 issues
+    multiple: true
+    options:
+      - sleep
+      - excessive motion
+      - eyetracking issues (crash, pupil loss)
+      - physio signal quality issue
+      - controller issues
+- type: textarea
+  attributes:
+    label: task-TunnelPart1Story_run-01 notes
+
+- type: markdown
+  attributes:
+    value: "## task-TunnelPart2Story"
+- type: checkboxes
+  attributes:
+    label: task-TunnelPart2Story_run-01 completion  
+    options:
+      - label: series was completed.
+- type: dropdown
+  attributes:
+    label: task-TunnelPart2Story_run-01 issues
+    multiple: true
+    options:
+      - sleep
+      - excessive motion
+      - eyetracking issues (crash, pupil loss)
+      - physio signal quality issue
+      - controller issues
+- type: textarea
+  attributes:
+    label: task-TunnelPart2Story_run-01 notes
+
+- type: markdown
+  attributes:
+    value: "## task-TunnelRecall"
+- type: checkboxes
+  attributes:
+    label: task-TunnelRecall_run-01 completion  
+    options:
+      - label: series was completed.
+- type: dropdown
+  attributes:
+    label: task-TunnelRecall_run-01 issues
+    multiple: true
+    options:
+      - sleep
+      - excessive motion
+      - eyetracking issues (crash, pupil loss)
+      - physio signal quality issue
+      - controller issues
+- type: textarea
+  attributes:
+    label: task-TunnelRecall_run-01 notes
+
+- type: markdown
+  attributes:
+    value: "## task-TunnelRecency"
+- type: checkboxes
+  attributes:
+    label: task-TunnelRecency_run-01 completion  
+    options:
+      - label: series was completed.
+- type: dropdown
+  attributes:
+    label: task-TunnelRecency_run-01 issues
+    multiple: true
+    options:
+      - sleep
+      - excessive motion
+      - eyetracking issues (crash, pupil loss)
+      - physio signal quality issue
+      - controller issues
+- type: textarea
+  attributes:
+    label: task-TunnelRecency_run-01 notes
+
+
