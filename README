@@ -1,13 +1,17 @@
 <!-- vim: syntax=Markdown -->
-# Courtois-NeuroMod: [xxxx subdataset](https://github.com/courtois-neuromod/xxxxx)
+# Courtois-NeuroMod: [narratives subdataset](https://github.com/courtois-neuromod/narratives)
 
 The [Courtois project on Neural Modelling (Courtois NeuroMod)](https://www.cneuromod.ca/) aims at training artificial neural networks using extensive experimental data on individual human brain activity and behaviour.
 
-Participants *performed task xxx while functional data being acquired in the MRI scanner* . A extensive description can be found [here](https://docs.cneuromod.ca/en/latest/DATASETS.html#xxxx).
+Participants performed 3 language tasks while functional data being acquired in the MRI scanner:
+- Story: listening to a story
+- Recall: verbal recall of the story
+- Recency: prompted with 2 written segments of the transcript of the story, the participant chooses the most recent one. A short questionnaire about the story follows.
+A extensive description can be found [here](https://docs.cneuromod.ca/en/latest/DATASETS.html#narratives).
 
 This subdataset is organized following the [brain imaging data structure (BIDS)](https://bids.neuroimaging.io/) (including extensions in development) and contains:
 - [x] [raw neuroimaging data](https://docs.cneuromod.ca/en/latest/MRI.html#functional-sequences)
-- [ ] behavioral variables in event files
+- [x] behavioral variables in event files
 - [ ] physiological data
   - [ ] ECG
   - [ ] pulse (photoplethysmography)
